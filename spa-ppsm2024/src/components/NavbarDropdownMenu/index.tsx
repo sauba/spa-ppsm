@@ -54,7 +54,7 @@ export default function NavbarDropdownMenu() {
                             hover:text-lg
                           `}
                         >
-                          O que é ?
+                          Apoio
                         </a>
                       </div>
                     )}
@@ -86,7 +86,7 @@ export default function NavbarDropdownMenu() {
                             hover:text-lg
                           `}
                         >
-                          Como Acontece ?
+                          Regulamento
                         </a>
                       </div>
                     )}
