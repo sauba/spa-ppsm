@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-col justify-center bg-fundo-site bg-cover ${inter.className}`}
+      className={`flex min-h-screen flex-col items-center bg-fundo-site bg-cover ${inter.className}`}
     >
       <Header />
       <h1 className={`sm:text-2xl lg:text-4xl font-caveat text-red-600`}>Pedra Preta Surf Master 2024</h1>
