@@ -11,7 +11,7 @@ export default function Home() {
       className={`flex min-h-screen flex-col items-center justify-center bg-fundo-site bg-cover ${inter.className}`}
     >
       <Header />
-      <h1 className={`text-6xl font-caveat text-red-600`}>Pedra Preta Surf Master 2024</h1>
+      <h1 className={`sm:text-3xl text-6xl font-caveat text-red-600`}>Pedra Preta Surf Master 2024</h1>
       <Image src={construcao} width={128} height={128} alt="" className={`animate-pulse`} />
       <Footer />
     </main>
