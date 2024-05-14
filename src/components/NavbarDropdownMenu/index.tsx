@@ -1,6 +1,9 @@
 import { Menu, Transition } from "@headlessui/react"
 import { List } from "@phosphor-icons/react"
+import logo from "@/assets/logo.svg"
+
 import { Fragment } from "react"
+import Image from "next/image"
 
 export default function NavbarDropdownMenu() {
   return (
@@ -10,10 +13,10 @@ export default function NavbarDropdownMenu() {
           <Fragment>
             <Menu.Button className="inline-flex justify-items-start rounded-md text-red-50">
               <List
-                size={64}
-                weight="fill"
+                size={32}
+                weight="bold"
                 color="white"
-                className={`py-4`}
+                className={``}
               />
             </Menu.Button>
 
@@ -29,6 +32,38 @@ export default function NavbarDropdownMenu() {
             >
               <Menu.Items className="origin-top-left absolute left-0 w-72 rounded-md bg-transparent">
                 <div className="flex-col justify-start items-start">
+                <Menu.Item>
+                    {({ active }) => (
+                      <div
+                        className={`
+                          flex
+                          my-2
+                          justify-evenly
+                          items-center                
+                          ${active
+                            ? "bg-amber-950 text-red-50 text-2xl font-bold"
+                            : "bg-amber-950 text-red-50 font-bold"
+                          }
+                        `}
+                      >
+                        <a
+                          href="#categorias"
+                          className={`
+                            flex
+                            items-center
+                            px-4
+                            py-2
+                            text-sm
+                            gap-3
+                            hover:text-lg
+                          `}
+                        >
+                          Categorias
+                        </a>
+                      </div>
+                    )}
+                  </Menu.Item>
+
                   <Menu.Item>
                     {({ active }) => (
                       <div
@@ -44,7 +79,7 @@ export default function NavbarDropdownMenu() {
                         `}
                       >
                         <a
-                          href="#about"
+                          href="#apoio"
                           className={`
                             flex
                             items-center
@@ -75,7 +110,7 @@ export default function NavbarDropdownMenu() {
                         `}
                       >
                         <a
-                          href="#como-acontece"
+                          href="#regulamento"
                           className={`
                             flex
                             items-center
@@ -92,6 +127,38 @@ export default function NavbarDropdownMenu() {
                     )}
                   </Menu.Item>
 
+                  <Menu.Item>
+                    {({ active }) => (
+                      <div
+                        className={`
+                          flex
+                          my-2
+                          justify-evenly
+                          items-center                
+                          ${active
+                            ? "bg-amber-950 text-red-50 text-2xl font-bold"
+                            : "bg-amber-950 text-red-50 font-bold"
+                          }
+                        `}
+                      >
+                        <a
+                          href="#footer"
+                          className={`
+                            flex
+                            items-center
+                            px-4
+                            py-2
+                            text-sm
+                            gap-3
+                            hover:text-lg
+                          `}
+                        >
+                          Contato
+                        </a>
+                      </div>
+                    )}
+                  </Menu.Item>
+
                 </div>
               </Menu.Items>
             </Transition>
@@ -102,36 +169,3 @@ export default function NavbarDropdownMenu() {
   )
 }
 
-{
-  /* Menu Item Desabilitado */
-}
-{
-  /* <Menu.Item disabled>
-      {({ active, disabled }) => (
-        <div className="flex justify-evenly items-center">
-          <HandsClapping
-            size={32}
-            className={`${
-              disabled
-                ? "text-gray-200"
-                : active
-                ? "bg-amber-950 text-red-50 font-bold"
-                : "text-gray-300"
-            }`}
-          />
-          <a
-            href="#"
-            className={`flex items-center px-4 py-2 text-sm ${
-              disabled
-                ? "text-zinc-300"
-                : active
-                ? "bg-amber-950 text-red-50 text-white"
-                : "text-gray-700"
-            }`}
-          >
-            Abordagem
-          </a>
-        </div>
-      )}
-  </Menu.Item> */
-}

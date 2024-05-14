@@ -11,13 +11,13 @@ export default function Footer() {
         items-center
         bg-transparent
         text-center
-        text-white
+        text-red-600
         pt-32
       `}
       id="footer"
     >
       <div className={`flex-col justify-center items-center`}>
-        <a href="https://wa.me/5581985259168" referrerPolicy="no-referrer" target="_blank" className={`w-4/6 px-4 py-2 mx-auto flex justify-center items-center gap-3 text-white rounded-3xl font-caveat`}>
+        <a href="https://wa.me/5581985259168" referrerPolicy="no-referrer" target="_blank" className={`px-4 py-2 mx-auto flex justify-center items-center gap-3 rounded-3xl font-caveat`}>
           <WhatsappLogo size={28} weight="thin" color={`green`} className={`hover:cursor-pointer`} />
           <p className={`text-center text-xl`}>Informações e Inscrições</p>
         </a>
