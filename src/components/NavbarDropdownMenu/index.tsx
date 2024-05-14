@@ -13,10 +13,10 @@ export default function NavbarDropdownMenu() {
           <Fragment>
             <Menu.Button className="inline-flex justify-items-start rounded-md text-red-50">
               <List
-                size={32}
-                weight="bold"
+                size={64}
+                weight="thin"
                 color="white"
-                className={``}
+                className={`py-4`}
               />
             </Menu.Button>
 
