@@ -1,6 +1,6 @@
 import { Menu, Transition } from "@headlessui/react"
 import { List } from "@phosphor-icons/react"
-import logo from "@/assets/logo.svg"
+import logo from "../../../public/logo.svg"
 
 import { Fragment } from "react"
 import Image from "next/image"
@@ -12,12 +12,13 @@ export default function NavbarDropdownMenu() {
         {({ open }) => (
           <Fragment>
             <Menu.Button className="inline-flex justify-items-start rounded-md text-red-50">
-              <List
+              <Image src={logo} width={256} height={256} alt="" className="p-4" />
+              {/* <List
                 size={64}
                 weight="thin"
                 color="white"
                 className={`py-4`}
-              />
+              /> */}
             </Menu.Button>
 
             {/* Menu Items */}
@@ -41,8 +42,8 @@ export default function NavbarDropdownMenu() {
                           justify-evenly
                           items-center                
                           ${active
-                            ? "bg-amber-950 text-red-50 text-2xl font-bold"
-                            : "bg-amber-950 text-red-50 font-bold"
+                            ? "bg-red-600 text-zinc-950 text-2xl font-bold"
+                            : "bg-red-600 text-zinc-950 font-bold"
                           }
                         `}
                       >
@@ -73,8 +74,8 @@ export default function NavbarDropdownMenu() {
                           items-center
                           my-2                             
                           ${active
-                            ? "bg-amber-950 text-red-50 text-2xl font-bold"
-                            : "bg-amber-950 text-red-50 font-bold"
+                            ? "bg-red-600 text-zinc-950 text-2xl font-bold"
+                            : "bg-red-600 text-zinc-950 font-bold"
                           }
                         `}
                       >
@@ -104,8 +105,8 @@ export default function NavbarDropdownMenu() {
                           justify-evenly
                           items-center                
                           ${active
-                            ? "bg-amber-950 text-red-50 text-2xl font-bold"
-                            : "bg-amber-950 text-red-50 font-bold"
+                            ? "bg-red-600 text-zinc-950 text-2xl font-bold"
+                            : "bg-red-600 text-zinc-950 font-bold"
                           }
                         `}
                       >
@@ -136,8 +137,8 @@ export default function NavbarDropdownMenu() {
                           justify-evenly
                           items-center                
                           ${active
-                            ? "bg-amber-950 text-red-50 text-2xl font-bold"
-                            : "bg-amber-950 text-red-50 font-bold"
+                            ? "bg-red-600 text-zinc-950 text-2xl font-bold"
+                            : "bg-red-600 text-zinc-950 font-bold"
                           }
                         `}
                       >
