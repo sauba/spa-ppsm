@@ -20,11 +20,11 @@ export default function Agradecimentos() {
       <p className={`text-center text-5xl animate-skew-stop tracking-wider font-caveat`}>Agradecimentos</p>
 
       <p className={`text-center lg:pt-8 text-sm lg:text-xl tracking-widest py-2`}>
-        Agradecimentos especiais a <span className="xl:text-xl font-bold">Jisk</span>, através de seu representante em Pernambuco, Rógerio, a <span className="xl:text-xl font-bold">Fábrica de Óculos</span> da marca <span className="xl:text-xl font-bold">Maldivas Eyewear</span>, a <span className="xl:text-xl font-bold">Irado Tattoo</span>.
+        Agradecimentos especiais a <span className="xl:text-xl font-bold">Jisk</span>, a <span className="xl:text-xl font-bold">Fábrica de Óculos</span> com sua marca <span className="xl:text-xl font-bold">Maldivas Eyewear</span>, a <span className="xl:text-xl font-bold">Irado Tattoo</span>.
       </p>
 
       <p className={`text-center text-sm lg:text-xl tracking-widest py-2`}>
-        Aos apoiadores <span className="font-bold">LD Artes Gráficas</span>, as barracas mais alucinantes de praia da <span className="xl:text-xl font-bold">Inside Tendas de Sol</span>, a loja mais surf do litoral cabense <span className="xl:text-xl font-bold">Xareu Acessórios</span>.
+        Aos apoiadores <span className="font-bold">LD Artes Gráficas</span>, a <span className="xl:text-xl font-bold">Inside Tendas de Sol</span>, a <span className="xl:text-xl font-bold">Xareu Acessórios</span>.
       </p>
 
       <p className={`text-center text-sm lg:text-xl tracking-widest py-2`}>
