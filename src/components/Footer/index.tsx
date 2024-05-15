@@ -37,12 +37,10 @@ export default function Footer() {
 
       <div className={`flex-col justify-center items-center`}>
         <a href="https://wa.me/5581999895856" referrerPolicy="no-referrer" target="_blank" className={`px-4 py-2 mx-auto flex justify-center items-center gap-3 rounded-3xl font-caveat`}>
-          <WhatsappLogo size={48} weight="thin" color={`lime`} className={`hover:cursor-pointer`} />
-          <p className={`text-center text-2xl lg:text-5xl`}>Informações</p>
+          <WhatsappLogo size={24} weight="thin" color={`lime`} className={`hover:cursor-pointer`} />
         </a>
-        <p className={`text-center text-2xl lg:text-5xl font-caveat`}>Acompanhe as novidades no nosso instagram</p>
-        <a href="https://www.instagram.com/parafajsp/" referrerPolicy="no-referrer" target="_blank">
-          <InstagramLogo size={68} weight="thin" color="red" className={`hover:cursor-pointer animate-wiggle mx-auto py-2`} />
+        <a href="https://www.instagram.com/thiagosauba" referrerPolicy="no-referrer" target="_blank">
+          <InstagramLogo size={24} weight="thin" color="red" className={`hover:cursor-pointer animate-wiggle mx-auto py-2`} />
         </a>
       </div>
     </div>
