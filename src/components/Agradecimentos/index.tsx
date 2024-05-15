@@ -14,7 +14,7 @@ export default function Agradecimentos() {
         text-red-50
         font-pt-mono
       `} id="agradecimentos">
-      <p className={`text-center xl:text-5xl animate-skew-stop tracking-wider font-caveat`}>Agradecimentos</p>
+      <p className={`text-center sm:text-3xl xl:text-5xl animate-skew-stop tracking-wider font-caveat`}>Agradecimentos</p>
       <p className={`text-center lg:pt-8 lg:text-xl tracking-widest py-1`}>
         Agradecimentos especiais a <span className="xl:text-2xl font-bold">Jisk</span>, através de seu representante aqui em Pernambuco Rógerio, a <span className="xl:text-2xl font-bold">Fábrica de Óculos</span> da marca <span className="xl:text-2xl font-bold">Maldivas Eyewear</span>, dos meus amigos irmãos Lisandro e Elisio, a <span className="xl:text-2xl font-bold">Irado Tattoo</span> do meu parceiro Everton.
       </p>
