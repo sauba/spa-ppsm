@@ -1,4 +1,4 @@
-import { GithubLogo, InstagramLogo, WhatsappLogo } from "@phosphor-icons/react";
+import { GithubLogo, InstagramLogo, LinkedinLogo, WhatsappLogo } from "@phosphor-icons/react";
 import Image from "next/image";
 import sauba from "../../../public/sauba.png";
 
@@ -43,6 +43,9 @@ export default function Footer() {
           </a>
           <a href="https://github.com/sauba" referrerPolicy="no-referrer" target="_blank">
             <GithubLogo size={24} weight="thin" color="white" className={`hover:cursor-pointer animate-wiggle mx-auto py-2`} />
+          </a>
+          <a href="https://www.linkedin.com/in/thiago-queiroz-dev/" referrerPolicy="no-referrer" target="_blank">
+            <LinkedinLogo size={24} weight="thin" color="blue" className={`hover:cursor-pointer animate-wiggle mx-auto py-2`} />
           </a>
         </div>
       </div>
