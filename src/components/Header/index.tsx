@@ -4,7 +4,7 @@ import NavbarDropdownMenu from "../NavbarDropdownMenu";
 
 export default function Header() {
   return (
-    <div className={`w-full flex justify-start items-center`}>
+    <div className={`w-full fixed top-0 right-0 left-0 flex justify-start items-center tracking-widest border-none outline-none`}>
       <NavbarDropdownMenu />
     </div>
   )

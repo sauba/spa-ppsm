@@ -1,24 +1,21 @@
 import { Menu, Transition } from "@headlessui/react"
 import { List } from "@phosphor-icons/react"
-import logo from "../../../public/logo.svg"
 
 import { Fragment } from "react"
-import Image from "next/image"
 
 export default function NavbarDropdownMenu() {
   return (
-    <div className="flex justify-start items-start">
+    <div className="flex justify-start items-start border-none outline-none">
       <Menu as="div" className="relative">
         {({ open }) => (
           <Fragment>
-            <Menu.Button className="inline-flex justify-items-start rounded-md text-red-50">
-              <Image src={logo} width={256} height={256} alt="" className="p-4" />
-              {/* <List
+            <Menu.Button className="inline-flex justify-items-start rounded-md border-none outline-none">
+              <List
                 size={64}
-                weight="thin"
-                color="white"
+                weight="bold"
+                color="black"
                 className={`py-4`}
-              /> */}
+              />
             </Menu.Button>
 
             {/* Menu Items */}
@@ -33,7 +30,72 @@ export default function NavbarDropdownMenu() {
             >
               <Menu.Items className="origin-top-left absolute left-0 w-72 rounded-md bg-transparent">
                 <div className="flex-col justify-start items-start">
-                <Menu.Item>
+
+                  <Menu.Item>
+                    {({ active }) => (
+                      <div
+                        className={`
+                          flex
+                          my-2
+                          justify-evenly
+                          items-center                
+                          ${active
+                            ? "bg-red-600 text-zinc-950 text-2xl font-bold"
+                            : "bg-red-600 text-zinc-950 font-bold"
+                          }
+                        `}
+                      >
+                        <a
+                          href="#cartazEvento"
+                          className={`
+                            flex
+                            items-center
+                            px-4
+                            py-2
+                            text-sm
+                            gap-3
+                            hover:text-lg
+                          `}
+                        >
+                          Evento
+                        </a>
+                      </div>
+                    )}
+                  </Menu.Item>
+
+                  <Menu.Item>
+                    {({ active }) => (
+                      <div
+                        className={`
+                          flex
+                          my-2
+                          justify-evenly
+                          items-center                
+                          ${active
+                            ? "bg-red-600 text-zinc-950 text-2xl font-bold"
+                            : "bg-red-600 text-zinc-950 font-bold"
+                          }
+                        `}
+                      >
+                        <a
+                          href="#agradecimentos"
+                          className={`
+                            flex
+                            items-center
+                            px-4
+                            py-2
+                            text-sm
+                            gap-3
+                            hover:text-lg
+                          `}
+                        >
+                          Agradecimentos
+                        </a>
+                      </div>
+                    )}
+                  </Menu.Item>
+
+                  <Menu.Item>
                     {({ active }) => (
                       <div
                         className={`

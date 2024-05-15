@@ -99,7 +99,8 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "fundo-site": "url('/bg.png')"
+        "fundo-site": "url('/bg.png')",
+        "fundo-cartaz-evento": "url('/cartaz_borda.png')"
       },
       screens: {
         'xs': '475px',
