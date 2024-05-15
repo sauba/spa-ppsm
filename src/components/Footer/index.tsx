@@ -39,13 +39,13 @@ export default function Footer() {
             <WhatsappLogo size={24} weight="thin" color={`lime`} className={`hover:cursor-pointer`} />
           </a>
           <a href="https://www.instagram.com/thiagosauba" referrerPolicy="no-referrer" target="_blank">
-            <InstagramLogo size={24} weight="thin" color="red" className={`hover:cursor-pointer animate-wiggle mx-auto py-2`} />
+            <InstagramLogo size={48} weight="thin" color="red" className={`hover:cursor-pointer animate-wiggle mx-auto py-2`} />
           </a>
           <a href="https://github.com/sauba" referrerPolicy="no-referrer" target="_blank">
-            <GithubLogo size={24} weight="thin" color="white" className={`hover:cursor-pointer animate-wiggle mx-auto py-2`} />
+            <GithubLogo size={48} weight="thin" color="white" className={`hover:cursor-pointer animate-wiggle mx-auto py-2`} />
           </a>
           <a href="https://www.linkedin.com/in/thiago-queiroz-dev/" referrerPolicy="no-referrer" target="_blank">
-            <LinkedinLogo size={24} weight="thin" color="blue" className={`hover:cursor-pointer animate-wiggle mx-auto py-2`} />
+            <LinkedinLogo size={48} weight="thin" color="blue" className={`hover:cursor-pointer animate-wiggle mx-auto py-2`} />
           </a>
         </div>
       </div>
