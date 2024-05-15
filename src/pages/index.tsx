@@ -3,6 +3,7 @@ import CartazEvento from "@/components/CartazEvento";
 import Categorias from "@/components/Categorias";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import Premiacao from "@/components/Premiacao";
 import Regulamento from "@/components/Regulamento";
 import { Inter } from "next/font/google";
 import Image from "next/image";
@@ -18,6 +19,7 @@ export default function Home() {
       <Image src={construcao} width={256} height={256} alt="" className={`animate-pulse lg:py-8`} />
       <CartazEvento />
       <Agradecimentos />
+      <Premiacao />
       <Categorias />
       <Regulamento />
       <Footer />

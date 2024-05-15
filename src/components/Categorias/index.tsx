@@ -35,7 +35,7 @@ export default function Categorias() {
           <CheckCircle size={32} weight="bold" color="lime" />Legends 55+</span>
       </div>
 
-      <p className={`text-center xl:text-4xl tracking-wider lg:pt-12 font-bold`}>
+      <p className={`text-center xl:text-4xl tracking-wider font-bold`}>
         Vagas Limitadas: 16 vagas por categoria.
       </p>
     </div>

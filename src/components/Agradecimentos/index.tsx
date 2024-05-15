@@ -31,7 +31,7 @@ export default function Agradecimentos() {
         E uma menção especial ao nosso Prefeito <span className="xl:text-2xl font-bold">Keko do Armazém</span> pelo incentivo aos esportes, que vem fazendo com que os atletas de todas as modalidades do municipio se dediquem e saibam que o esporte <span className="xl:text-2xl font-bold">Salva Vidas</span>.
       </p>
 
-      <p className={`text-center xl:text-8xl tracking-widest leading-loose lg:pt-12 font-allura  animate-wiggle`}>
+      <p className={`text-center xl:text-8xl tracking-widest leading-loose lg:pt-4 font-allura  animate-wiggle`}>
         Aloha!
       </p>
     </div>

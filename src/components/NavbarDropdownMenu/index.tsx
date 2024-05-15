@@ -41,7 +41,7 @@ export default function NavbarDropdownMenu() {
                           items-center                
                           ${active
                             ? "bg-lime-600 text-red-50 text-2xl font-bold"
-                            : "bg-sky-500 text-red-50"
+                            : "bg-zinc-900 text-red-50"
                           }
                         `}
                       >
@@ -73,7 +73,7 @@ export default function NavbarDropdownMenu() {
                           items-center                
                           ${active
                             ? "bg-lime-600 text-red-50 text-2xl font-bold"
-                            : "bg-sky-500 text-red-50"
+                            : "bg-zinc-900 text-red-50"
                           }
                         `}
                       >
@@ -105,7 +105,39 @@ export default function NavbarDropdownMenu() {
                           items-center                
                           ${active
                             ? "bg-lime-600 text-red-50 text-2xl font-bold"
-                            : "bg-sky-500 text-red-50"
+                            : "bg-zinc-900 text-red-50"
+                          }
+                        `}
+                      >
+                        <a
+                          href="#inscricoes"
+                          className={`
+                            flex
+                            items-center
+                            px-4
+                            py-2
+                            text-sm
+                            gap-3
+                            hover:text-lg
+                          `}
+                        >
+                          Inscrições
+                        </a>
+                      </div>
+                    )}
+                  </Menu.Item>
+
+                  <Menu.Item>
+                    {({ active }) => (
+                      <div
+                        className={`
+                          flex
+                          my-2
+                          justify-evenly
+                          items-center                
+                          ${active
+                            ? "bg-lime-600 text-red-50 text-2xl font-bold"
+                            : "bg-zinc-900 text-red-50"
                           }
                         `}
                       >
@@ -137,7 +169,7 @@ export default function NavbarDropdownMenu() {
                           my-2                             
                           ${active
                             ? "bg-lime-600 text-red-50 text-2xl font-bold"
-                            : "bg-sky-500 text-red-50"
+                            : "bg-zinc-900 text-red-50"
                           }
                         `}
                       >
@@ -168,7 +200,7 @@ export default function NavbarDropdownMenu() {
                           items-center                
                           ${active
                             ? "bg-lime-600 text-red-50 text-2xl font-bold"
-                            : "bg-sky-500 text-red-50"
+                            : "bg-zinc-900 text-red-50"
                           }
                         `}
                       >
@@ -200,7 +232,7 @@ export default function NavbarDropdownMenu() {
                           items-center                
                           ${active
                             ? "bg-lime-600 text-red-50 text-2xl font-bold"
-                            : "bg-sky-500 text-red-50"
+                            : "bg-zinc-900 text-red-50"
                           }
                         `}
                       >
@@ -217,7 +249,7 @@ export default function NavbarDropdownMenu() {
                             hover:text-lg
                           `}
                         >
-                          Informações & Inscrições
+                          Informações
                         </a>
                       </div>
                     )}
