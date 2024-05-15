@@ -5,8 +5,8 @@ export default function Agradecimentos() {
         flex-col
         items-center
         text-center
-        m-4
-        lg:m-16
+        m-2
+        lg:m-4
         p-4
         lg:p-8
         outline-none

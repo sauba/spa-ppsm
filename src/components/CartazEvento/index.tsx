@@ -1,5 +1,5 @@
 import Image from "next/image";
-import cartazEvento from "../../../public/cartaz_borda.png"
+import cartazEvento from "../../../public/cartaz_borda.png";
 
 export default function CartazEvento() {
   return (
@@ -9,7 +9,7 @@ export default function CartazEvento() {
         justify-center
         items-center
       `} id="cartazEvento">
-        <Image src={cartazEvento} width={480} height={480} alt="" className="py-4" />
+      <Image src={cartazEvento} width={428} height={428} alt="" className="py-4" />
     </div>
   )
 }
