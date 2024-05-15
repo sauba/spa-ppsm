@@ -20,7 +20,7 @@ export default function Premiacao() {
       `} id="inscricoes">
       <p className={`text-center text-5xl animate-skew-stop tracking-wider font-caveat pt-8`}>Inscrições</p>
       <p className={`text-center text-sm xl:text-xl tracking-wider py-2`}>VALOR DA INSCRIÇÃO: <span className={`xl:text-4xl`}>R$70,00</span></p>
-      <Image src={pixQRCode} width={300} height={300} alt="QRCode para pagamento de inscrição do campeonato" className="mx-auto" />
+      <Image src={pixQRCode} width={300} height={300} alt="QRCode para pagamento de inscrição do campeonato" className="mx-auto rounded-3xl" />
       <p className={`text-center text-sm xl:text-xl tracking-wider pt-4`}>
         Roberto Bade - Banco Bradesco
       </p>
