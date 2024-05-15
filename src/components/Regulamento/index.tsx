@@ -14,7 +14,7 @@ export default function Regulamento() {
         text-white
         font-caveat
       `} id="regulamento">
-      <p className={`text-center xl:text-6xl animate-skew-stop tracking-wider`}>Regulamento</p>
+      <p className={`text-center text-5xl animate-skew-stop tracking-wider`}>Regulamento</p>
       <p className={`text-center lg:pt-8 lg:text-2xl tracking-wider font-Shadows-into-light-two`}>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis consequatur temporibus deserunt ratione ipsum cum accusamus officia suscipit, deleniti sint earum praesentium vitae delectus minus! Adipisci perferendis consequatur sed nostrum?
       </p>
