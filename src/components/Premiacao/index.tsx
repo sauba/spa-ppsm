@@ -26,7 +26,7 @@ export default function Premiacao() {
       </p>
       <p className={`text-center text-sm xl:text-xl tracking-wider pt-4`}>
         Enviar comprovante para o Whatsapp (81)985259168 <a href="https://wa.me/5581999895856" referrerPolicy="no-referrer" target="_blank" className={`py-2 mx-auto flex justify-center items-center rounded-3xl font-caveat`}>
-          <WhatsappLogo size={32} weight="thin" color={`lime`} className={`animate-wiggle hover:cursor-pointer`} />
+          <WhatsappLogo size={64} weight="thin" color={`lime`} className={`animate-wiggle hover:cursor-pointer`} />
         </a>
       </p>
       <p className={`text-center text-sm xl:text-xl tracking-wider pt-4`}>
