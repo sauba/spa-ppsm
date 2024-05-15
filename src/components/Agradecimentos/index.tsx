@@ -1,3 +1,6 @@
+import Image from "next/image";
+import hangLoose from "../../../public/hangloose.png";
+
 export default function Agradecimentos() {
   return (
     <div className={`
@@ -33,7 +36,7 @@ export default function Agradecimentos() {
       </p>
 
       <p className={`text-center text-5xl xl:text-8xl tracking-widest lg:pt-4 font-allura  animate-wiggle`}>
-        Aloha!
+        <Image src={hangLoose} width={48} height={48} alt="" />Aloha!
       </p>
     </div>
   )
