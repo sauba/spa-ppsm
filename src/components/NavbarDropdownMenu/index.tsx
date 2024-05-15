@@ -40,8 +40,8 @@ export default function NavbarDropdownMenu() {
                           justify-evenly
                           items-center                
                           ${active
-                            ? "bg-red-600 text-zinc-950 text-2xl font-bold"
-                            : "bg-red-600 text-zinc-950 font-bold"
+                            ? "bg-lime-600 text-red-50 text-2xl font-bold"
+                            : "bg-sky-500 text-red-50"
                           }
                         `}
                       >
@@ -72,8 +72,8 @@ export default function NavbarDropdownMenu() {
                           justify-evenly
                           items-center                
                           ${active
-                            ? "bg-red-600 text-zinc-950 text-2xl font-bold"
-                            : "bg-red-600 text-zinc-950 font-bold"
+                            ? "bg-lime-600 text-red-50 text-2xl font-bold"
+                            : "bg-sky-500 text-red-50"
                           }
                         `}
                       >
@@ -104,8 +104,8 @@ export default function NavbarDropdownMenu() {
                           justify-evenly
                           items-center                
                           ${active
-                            ? "bg-red-600 text-zinc-950 text-2xl font-bold"
-                            : "bg-red-600 text-zinc-950 font-bold"
+                            ? "bg-lime-600 text-red-50 text-2xl font-bold"
+                            : "bg-sky-500 text-red-50"
                           }
                         `}
                       >
@@ -136,8 +136,8 @@ export default function NavbarDropdownMenu() {
                           items-center
                           my-2                             
                           ${active
-                            ? "bg-red-600 text-zinc-950 text-2xl font-bold"
-                            : "bg-red-600 text-zinc-950 font-bold"
+                            ? "bg-lime-600 text-red-50 text-2xl font-bold"
+                            : "bg-sky-500 text-red-50"
                           }
                         `}
                       >
@@ -167,8 +167,8 @@ export default function NavbarDropdownMenu() {
                           justify-evenly
                           items-center                
                           ${active
-                            ? "bg-red-600 text-zinc-950 text-2xl font-bold"
-                            : "bg-red-600 text-zinc-950 font-bold"
+                            ? "bg-lime-600 text-red-50 text-2xl font-bold"
+                            : "bg-sky-500 text-red-50"
                           }
                         `}
                       >
@@ -199,8 +199,8 @@ export default function NavbarDropdownMenu() {
                           justify-evenly
                           items-center                
                           ${active
-                            ? "bg-red-600 text-zinc-950 text-2xl font-bold"
-                            : "bg-red-600 text-zinc-950 font-bold"
+                            ? "bg-lime-600 text-red-50 text-2xl font-bold"
+                            : "bg-sky-500 text-red-50"
                           }
                         `}
                       >
@@ -213,6 +213,7 @@ export default function NavbarDropdownMenu() {
                             py-2
                             text-sm
                             gap-3
+                            text-center
                             hover:text-lg
                           `}
                         >

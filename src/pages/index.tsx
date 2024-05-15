@@ -15,10 +15,10 @@ export default function Home() {
       className={`flex min-h-screen flex-col items-center bg-fundo-site bg-cover bg-center`}
     >
       <Header />
+      <Image src={construcao} width={256} height={256} alt="" className={`animate-pulse lg:py-8`} />
       <CartazEvento />
       <Agradecimentos />
       <Categorias />
-      <Image src={construcao} width={256} height={256} alt="" className={`animate-pulse lg:py-8`} />
       <Regulamento />
       <Footer />
     </main>

@@ -1,4 +1,4 @@
-import { Check } from "@phosphor-icons/react";
+import { CheckCircle } from "@phosphor-icons/react/dist/ssr";
 
 export default function Categorias() {
   return (
@@ -21,18 +21,18 @@ export default function Categorias() {
 
       <div className="grid grid-cols-3 pt-12">
         <span className="flex justify-center items-center xl:text-5xl">
-          <Check size={32} weight="bold" color="green" />Master 35+</span>
+          <CheckCircle size={32} weight="bold" color="lime" />Master 35+</span>
         <span className="flex justify-center items-center xl:text-5xl">
-          <Check size={32} weight="bold" color="green" />Grand Master 40+</span>
+          <CheckCircle size={32} weight="bold" color="lime" />Grand Master 40+</span>
         <span className="flex justify-center items-center xl:text-5xl">
-          <Check size={32} weight="bold" color="green" />Kahuna 45+</span>
+          <CheckCircle size={32} weight="bold" color="lime" />Kahuna 45+</span>
       </div>
 
       <div className="grid grid-cols-2 py-8">
         <span className="flex justify-center items-center xl:text-5xl">
-          <Check size={32} weight="bold" color="green" />Grand Kahuna 50+</span>
+          <CheckCircle size={32} weight="bold" color="lime" />Grand Kahuna 50+</span>
         <span className="flex justify-center items-center xl:text-5xl">
-          <Check size={32} weight="bold" color="green" />Legends 55+</span>
+          <CheckCircle size={32} weight="bold" color="lime" />Legends 55+</span>
       </div>
 
       <p className={`text-center xl:text-4xl tracking-wider lg:pt-12 font-bold`}>
