@@ -35,7 +35,7 @@ export default function Footer() {
         <p className="text-sm lg:text-lg">Desenvolvido por Thiago José de Queiroz.</p>
       </div>
 
-      <div className={`w-full bg-zinc-950 flex justify-center items-center`}>
+      <div className={`w-full bg-zinc-950 flex justify-center items-center overflow-hidden`}>
         <a href="https://wa.me/5581999895856" referrerPolicy="no-referrer" target="_blank" className={`px-4 py-2 mx-auto flex justify-center items-center gap-3 rounded-3xl font-caveat`}>
           <WhatsappLogo size={24} weight="thin" color={`lime`} className={`hover:cursor-pointer`} />
         </a>
