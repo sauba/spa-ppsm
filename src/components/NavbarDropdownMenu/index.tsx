@@ -13,7 +13,7 @@ export default function NavbarDropdownMenu() {
               <List
                 size={64}
                 weight="bold"
-                color="black"
+                color="white"
                 className={`py-4`}
               />
             </Menu.Button>
