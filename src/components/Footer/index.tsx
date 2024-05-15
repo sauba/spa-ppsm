@@ -19,7 +19,7 @@ export default function Footer() {
     >
       <div className={`flex-col justify-center items-center`}>
         <a href="https://wa.me/5581985259168" referrerPolicy="no-referrer" target="_blank" className={`px-4 py-2 mx-auto flex justify-center items-center gap-3 rounded-3xl font-caveat`}>
-          <WhatsappLogo size={68} weight="thin" color={`lime`} className={`hover:cursor-pointer`} />
+          <WhatsappLogo size={48} weight="thin" color={`lime`} className={`hover:cursor-pointer`} />
           <p className={`text-center text-xl lg:text-5xl`}>Informações</p>
         </a>
         <p className={`text-center text-xl lg:text-5xl font-caveat`}>Acompanhe as novidades no nosso instagram</p>
