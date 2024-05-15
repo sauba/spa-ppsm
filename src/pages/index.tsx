@@ -18,10 +18,10 @@ export default function Home() {
       <Header />
       <Image src={construcao} width={256} height={256} alt="" className={`animate-pulse lg:py-8`} priority />
       <CartazEvento />
-      <Agradecimentos />
       <Premiacao />
       <Categorias />
       <Regulamento />
+      <Agradecimentos />
       <Footer />
     </main>
   );
