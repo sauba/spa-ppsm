@@ -15,11 +15,11 @@ export default function Premiacao() {
         font-pt-mono
       `} id="inscricoes">
       <p className={`text-center text-5xl animate-skew-stop tracking-wider font-caveat py-8`}>Inscrições</p>
-      <p className={`text-center xl:text-xl tracking-wider py-2`}>VALOR DA INSCRIÇÃO: <span className={`xl:text-4xl`}>R$70,00</span></p>
-      <p className={`text-center xl:text-2xl tracking-wider pt-4`}>
+      <p className={`text-center text-lg xl:text-xl tracking-wider py-2`}>VALOR DA INSCRIÇÃO: <span className={`xl:text-4xl`}>R$70,00</span></p>
+      <p className={`text-center text-lg xl:text-xl tracking-wider pt-4`}>
         Inicio no sábado 13 de julho as 10:00hs na Praia de Xareu - Pico Pedra Preta.
       </p>
-      <p className="text-center xl:text-2xl tracking-wider lg:pb-12">
+      <p className="text-center text-lg xl:text-xl tracking-wider lg:pb-12">
         Cabo de Sto Agostinho - Pernambuco.
       </p>
       <div className="w-full grid grid-cols-2 justify-center items-center pt-8">
