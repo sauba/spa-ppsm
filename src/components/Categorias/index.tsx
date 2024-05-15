@@ -4,7 +4,10 @@ export default function Categorias() {
   return (
     <div className={`
         categorias
-        lg:p-12
+        m-4
+        lg:m-16
+        p-4
+        lg:p-8
         flex-col
         items-center
         text-center
