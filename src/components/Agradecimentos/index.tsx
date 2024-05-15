@@ -13,7 +13,7 @@ export default function Agradecimentos() {
         bg-zinc-900
         bg-opacity-90
         text-red-50
-        font-Shadows-into-light-two
+        font-pt-mono
         rounded-3xl
       `} id="agradecimentos">
       <p className={`text-center xl:text-6xl animate-skew-stop tracking-wider font-caveat`}>Agradecimentos</p>
