@@ -36,7 +36,7 @@ export default function Agradecimentos() {
       </p>
 
       <p className={`flex justify-center items-center text-center text-5xl xl:text-8xl tracking-widest lg:pt-4 font-allura animate-wiggle`}>
-        <Image src={hangLoose} width={48} height={48} alt="" />Aloha!
+        <Image src={hangLoose} width={96} height={48} alt="" />Aloha!
       </p>
     </div>
   )
