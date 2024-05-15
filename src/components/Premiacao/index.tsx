@@ -27,10 +27,10 @@ export default function Premiacao() {
           <span className="lg:text-3xl">Premiação Por Categoria:</span>
         </div>
         <div className="lg:w-11/12 flex flex-col">
-          <span className="text-2xl lg:py-2">1º Lugar: Troféu, Bloco e Tatuagem no valor de R$500,00.</span>
-          <span className="text-2xl lg:py-2">2º Lugar: Medalha e Kits</span>
-          <span className="text-2xl lg:py-2">3º Lugar: Medalha e Kits</span>
-          <span className="text-2xl lg:py-2">4º Lugar: Medalha e Kits</span>
+          <span className="text-xl lg:text-2xl lg:py-2">1º Lugar: Troféu, Bloco e Tatuagem no valor de R$500,00.</span>
+          <span className="text-xl lg:text-2xl lg:py-2">2º Lugar: Medalha e Kits.</span>
+          <span className="text-xl lg:text-2xl lg:py-2">3º Lugar: Medalha e Kits.</span>
+          <span className="text-xl lg:text-2xl lg:py-2">4º Lugar: Medalha e Kits.</span>
         </div>
       </div>
     </div>
