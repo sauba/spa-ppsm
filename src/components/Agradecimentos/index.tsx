@@ -21,7 +21,7 @@ export default function Agradecimentos() {
       </p>
 
       <p className={`text-center text-sm lg:text-xl tracking-widest py-1`}>
-        Aos apoiadores <span className="font-bold">LD Artes Gráficas</span>, as barracas mais alucinantes de praia da <span className="xl:text-2xl font-bold">Inside Tendas de Sol</span>, a loja mais surf do litoral cabense <span className="xl:text-2xl font-bold">Xareu Acessórios</span>e do nosso <span className="font-bold">Fotógrafo Oficial Marcos Paulo da MP Vídeos e Photos</span>.
+        Aos apoiadores <span className="font-bold">LD Artes Gráficas</span>, as barracas mais alucinantes de praia da <span className="xl:text-2xl font-bold">Inside Tendas de Sol</span>, a loja mais surf do litoral cabense <span className="xl:text-2xl font-bold">Xareu Acessórios</span> e do nosso <span className="font-bold">Fotógrafo Oficial Marcos Paulo da MP Vídeos e Photos</span>.
       </p>
 
       <p className={`text-center text-sm lg:text-xl tracking-widest py-1`}>
