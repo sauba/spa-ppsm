@@ -22,7 +22,7 @@ export default function Premiacao() {
       <p className="text-center xl:text-2xl tracking-wider lg:pb-12">
         Cabo de Sto Agostinho - Pernambuco.
       </p>
-      <div className="w-full grid grid-cols-2 justify-center items-center">
+      <div className="w-full grid grid-cols-2 justify-center items-center pt-8">
         <div className="lg:w-12/12">
           <span className="lg:text-3xl">Premiação Por Categoria:</span>
         </div>
