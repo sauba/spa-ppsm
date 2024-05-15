@@ -16,7 +16,7 @@ export default function Home() {
       className={`flex min-h-screen flex-col items-center bg-fundo-site bg-cover bg-center`}
     >
       <Header />
-      <Image src={construcao} width={256} height={256} alt="" className={`animate-pulse lg:py-8`} />
+      <Image src={construcao} width={256} height={256} alt="" className={`animate-pulse lg:py-8`} priority />
       <CartazEvento />
       <Agradecimentos />
       <Premiacao />
