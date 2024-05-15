@@ -30,9 +30,9 @@ export default function Footer() {
         </a>
       </div>
 
-      <div className={`w-full bg-zinc-950 flex justify-center items-center`}>
+      <div className={`w-full bg-zinc-950 flex justify-center items-center animate-pulse`}>
         <Image src={sauba} width={64} height={64} alt="" />
-        <p>Desenvolvido por Thiago José de Queiroz.</p>
+        <p className="text-sm lg:text-lg">Desenvolvido por Thiago José de Queiroz.</p>
       </div>
     </div>
   )
