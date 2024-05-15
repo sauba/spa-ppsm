@@ -19,14 +19,14 @@ export default function Categorias() {
       <p className={`text-center xl:text-6xl animate-skew-stop tracking-wider`}>Categorias</p>
 
       <div className="grid grid-cols-3 pt-12">
-        <span className="flex justify-center items-center xl:text-5xl"><Check size={64} weight="thin" color="green" />Master 35+</span>
-        <span className="flex justify-center items-center xl:text-5xl"><Check size={64} weight="thin" color="green" />Grand Master 40+</span>
-        <span className="flex justify-center items-center xl:text-5xl"><Check size={64} weight="thin" color="green" />Kahuna 45+</span>
+        <span className="flex justify-center items-center xl:text-5xl"><Check size={32} weight="thin" color="green" />Master 35+</span>
+        <span className="flex justify-center items-center xl:text-5xl"><Check size={32} weight="thin" color="green" />Grand Master 40+</span>
+        <span className="flex justify-center items-center xl:text-5xl"><Check size={32} weight="thin" color="green" />Kahuna 45+</span>
       </div>
 
       <div className="grid grid-cols-2 py-8">
-        <span className="flex justify-center items-center xl:text-5xl"><Check size={64} weight="thin" color="green" />Grand Kahuna 50+</span>
-        <span className="flex justify-center items-center xl:text-5xl"><Check size={64} weight="thin" color="green" />Legends 55+</span>
+        <span className="flex justify-center items-center xl:text-5xl"><Check size={32} weight="thin" color="green" />Grand Kahuna 50+</span>
+        <span className="flex justify-center items-center xl:text-5xl"><Check size={32} weight="thin" color="green" />Legends 55+</span>
       </div>
 
       <p className={`text-center xl:text-4xl tracking-wider lg:pt-12 text-red-500 font-bold`}>
