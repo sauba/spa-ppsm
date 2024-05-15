@@ -1,3 +1,6 @@
+import Image from "next/image"
+import pixQRCode from "../../../public/pixppsm.jpeg"
+
 export default function Premiacao() {
   return (
     <div className={`
@@ -16,6 +19,7 @@ export default function Premiacao() {
       `} id="inscricoes">
       <p className={`text-center text-5xl animate-skew-stop tracking-wider font-caveat pt-8`}>Inscrições</p>
       <p className={`text-center text-sm xl:text-xl tracking-wider py-2`}>VALOR DA INSCRIÇÃO: <span className={`xl:text-4xl`}>R$70,00</span></p>
+      <Image src={pixQRCode} width={300} height={300} alt="QRCode para pagamento de inscrição do campeonato" className="mx-auto" />
       <p className={`text-center text-sm xl:text-xl tracking-wider pt-4`}>
         Inicio no sábado 13 de julho as 10:00hs na Praia de Xareu - Pico Pedra Preta.
       </p>
