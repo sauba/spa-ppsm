@@ -11,8 +11,9 @@ export default function Footer() {
         items-center
         bg-transparent
         text-center
-        text-red-600
-        pt-32
+        bg-zinc-900
+        bg-opacity-60
+        text-red-50
       `}
       id="footer"
     >

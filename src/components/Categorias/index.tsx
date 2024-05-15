@@ -5,8 +5,6 @@ export default function Categorias() {
     <div className={`
         w-full
         categorias
-        m-2
-        lg:m-4
         p-4
         lg:p-8
         flex-col
@@ -14,7 +12,7 @@ export default function Categorias() {
         text-center
         outline-none
         bg-zinc-900
-        bg-opacity-50
+        bg-opacity-60
         text-white
         font-caveat
       `} id="categorias">

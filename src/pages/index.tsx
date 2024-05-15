@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center bg-fundo-site bg-cover`}
+      className={`flex min-h-screen flex-col items-center bg-fundo-site bg-cover bg-center`}
     >
       <Header />
       <CartazEvento />

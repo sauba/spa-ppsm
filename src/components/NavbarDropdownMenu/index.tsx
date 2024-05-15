@@ -216,7 +216,7 @@ export default function NavbarDropdownMenu() {
                             hover:text-lg
                           `}
                         >
-                          Contato
+                          Informações & Inscrições
                         </a>
                       </div>
                     )}

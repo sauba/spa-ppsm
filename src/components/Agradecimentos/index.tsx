@@ -2,19 +2,17 @@ export default function Agradecimentos() {
   return (
     <div className={`
         agradecimentos
+        w-full
         flex-col
         items-center
         text-center
-        m-2
-        lg:m-4
         p-4
         lg:p-8
         outline-none
         bg-zinc-900
-        bg-opacity-90
+        bg-opacity-60
         text-red-50
         font-pt-mono
-        rounded-3xl
       `} id="agradecimentos">
       <p className={`text-center xl:text-5xl animate-skew-stop tracking-wider font-caveat`}>Agradecimentos</p>
       <p className={`text-center lg:pt-8 lg:text-xl tracking-widest leading-loose py-1`}>
