@@ -33,18 +33,18 @@ export default function Footer() {
       <div className={`w-full bg-zinc-950 flex justify-center items-center`}>
         <Image src={sauba} width={64} height={64} alt="" className="animate-pulse" />
         <p className="text-sm lg:text-lg animate-pulse">Desenvolvido por Thiago José de Queiroz.</p>
-      </div>
 
-      <div className={`w-full bg-zinc-950 flex justify-center items-center overflow-hidden`}>
-        <a href="https://wa.me/5581999895856" referrerPolicy="no-referrer" target="_blank" className={`px-4 py-2 mx-auto flex justify-center items-center gap-3 rounded-3xl font-caveat`}>
-          <WhatsappLogo size={24} weight="thin" color={`lime`} className={`hover:cursor-pointer`} />
-        </a>
-        <a href="https://www.instagram.com/thiagosauba" referrerPolicy="no-referrer" target="_blank">
-          <InstagramLogo size={24} weight="thin" color="red" className={`hover:cursor-pointer animate-wiggle mx-auto py-2`} />
-        </a>
-        <a href="https://github.com/sauba" referrerPolicy="no-referrer" target="_blank">
-          <GithubLogo size={24} weight="thin" color="white" className={`hover:cursor-pointer animate-wiggle mx-auto py-2`} />
-        </a>
+        <div className={`flex justify-center items-center overflow-hidden`}>
+          <a href="https://wa.me/5581999895856" referrerPolicy="no-referrer" target="_blank" className={`px-4 py-2 mx-auto flex justify-center items-center gap-3 rounded-3xl font-caveat`}>
+            <WhatsappLogo size={24} weight="thin" color={`lime`} className={`hover:cursor-pointer`} />
+          </a>
+          <a href="https://www.instagram.com/thiagosauba" referrerPolicy="no-referrer" target="_blank">
+            <InstagramLogo size={24} weight="thin" color="red" className={`hover:cursor-pointer animate-wiggle mx-auto py-2`} />
+          </a>
+          <a href="https://github.com/sauba" referrerPolicy="no-referrer" target="_blank">
+            <GithubLogo size={24} weight="thin" color="white" className={`hover:cursor-pointer animate-wiggle mx-auto py-2`} />
+          </a>
+        </div>
       </div>
     </div>
   )
