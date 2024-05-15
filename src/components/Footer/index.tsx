@@ -30,8 +30,8 @@ export default function Footer() {
         </a>
       </div>
 
-      <div className={`w-full bg-zinc-950 flex-col justify-center items-center`}>
-        <Image src={sauba} width={128} height={128} alt="" />
+      <div className={`w-full bg-zinc-950 flex justify-center items-center`}>
+        <Image src={sauba} width={64} height={64} alt="" />
         <p>Desenvolvido por Thiago José de Queiroz.</p>
       </div>
     </div>
