@@ -22,7 +22,7 @@ export default function Categorias() {
       <div className="grid grid-cols-3 pt-12">
         <span className="flex justify-center items-center text-2xl xl:text-5xl">
           <CheckCircle size={16} weight="bold" color="lime" />Master 35+</span>
-        <span className="flex justify-center items-center text-2xl xl:text-5xl">
+        <span className="flex justify-end items-center text-2xl xl:text-5xl">
           <CheckCircle size={16} weight="bold" color="lime" />Grand Master 40+</span>
         <span className="flex justify-center items-center text-2xl xl:text-5xl">
           <CheckCircle size={16} weight="bold" color="lime" />Kahuna 45+</span>
