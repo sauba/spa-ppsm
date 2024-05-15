@@ -14,7 +14,7 @@ export default function Premiacao() {
         text-white
         font-pt-mono
       `} id="inscricoes">
-      <p className={`text-center xl:text-6xl animate-skew-stop tracking-wider font-caveat`}>Inscrições</p>
+      <p className={`text-center text-5xl animate-skew-stop tracking-wider font-caveat pt-8`}>Inscrições</p>
       <p className={`text-center xl:text-xl tracking-wider xl:py-8`}>VALOR DA INSCRIÇÃO: <span className={`xl:text-4xl`}>R$70,00</span></p>
       <p className={`text-center xl:text-2xl tracking-wider xl:pt-8`}>
         Inicio no sabádo 13 de julho as 10:00hs na Praia de Xareu - Pico Pedra Preta.
