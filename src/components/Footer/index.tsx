@@ -1,4 +1,6 @@
 import { InstagramLogo, WhatsappLogo } from "@phosphor-icons/react";
+import Image from "next/image";
+import sauba from "../../../public/sauba.png";
 
 export default function Footer() {
   return (
@@ -26,6 +28,11 @@ export default function Footer() {
         <a href="https://www.instagram.com/parafajsp/" referrerPolicy="no-referrer" target="_blank">
           <InstagramLogo size={68} weight="thin" color="red" className={`hover:cursor-pointer animate-wiggle mx-auto py-2`} />
         </a>
+      </div>
+
+      <div className={`w-full bg-zinc-950 flex-col justify-center items-center`}>
+        <Image src={sauba} width={128} height={128} alt="" />
+        <p>Desenvolvido por Thiago José de Queiroz.</p>
       </div>
     </div>
   )
